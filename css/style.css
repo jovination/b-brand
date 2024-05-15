@@ -140,11 +140,12 @@ body::-webkit-scrollbar {
     background: #000;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 106%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    transition: background-size 400ms;
+    transition: background-size 500ms;
+    overflow: hidden;
 }
 
 .seg_ui:hover {
