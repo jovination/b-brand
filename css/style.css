@@ -61,7 +61,7 @@ main{
 .h-title{    font-size: 170px;
     font-weight: 700;
     line-height: 50px;
-    letter-spacing: -0.1rem;
+    letter-spacing: -0.2rem;
 }
 .sub-h-txt{
     width: 100%;
@@ -85,7 +85,7 @@ main{
 .about_tag{
     width: 350px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.2;
 }
 .year_tag{
@@ -97,4 +97,13 @@ main{
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 1.5rem;
+}
+.section_works{
+    max-width: 100%;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
