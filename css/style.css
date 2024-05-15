@@ -124,6 +124,7 @@ body::-webkit-scrollbar {
     gap: 10em;
 }
 .work_select{
+    font-family: 'Inter Tight', sans-serif;
     font-size: 56px;
     font-weight: 600;
     color: #000;
@@ -133,7 +134,7 @@ body::-webkit-scrollbar {
     grid-template-columns: auto auto auto;   
     gap: 20px;
 }
-.seg_ui{
+.seg_ui {
     width: 410px;
     height: 520px;
     background: #000;
@@ -143,7 +144,14 @@ body::-webkit-scrollbar {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    transition: background-size 400ms;
 }
+
+.seg_ui:hover {
+    background-size: 110%;
+    cursor: pointer;
+}
+
 .details_ui{
     font-family: 'Inter Tight', sans-serif;
     font-size: 28px;
