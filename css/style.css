@@ -123,6 +123,11 @@ body::-webkit-scrollbar {
     justify-content: center;
     gap: 10em;
 }
+.selected_work{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 .work_select{
     font-family: 'Inter Tight', sans-serif;
     font-size: 56px;
