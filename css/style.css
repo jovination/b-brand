@@ -214,7 +214,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:50px;
+    gap:50px !important;
 }
 .upper_about{
     display: flex;
@@ -288,6 +288,19 @@ main {
     border-radius: 50%;
     background: #d64770;
     border-radius: 100%;
+}
+.lower_archieve{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Make grid items responsive */
+}
+.arch{
+    width: 280px;
+    height: 175px;
+    background: #000;
+    border-radius: 20px;
+
 }
 
 
