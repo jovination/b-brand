@@ -241,6 +241,27 @@ main {
 }
 .lower_about{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.work_2ger{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.lets_work{
+    margin: 50px;
+ 
+}
+.lets_work p{
+    font-family: 'Inter Tight'; 
+    font-size: 70px;
+    font-weight: 400;
+    color: #fff;
 }
 .img_about {
     position: relative;
@@ -273,13 +294,13 @@ main {
     display: flex;
     gap: 12px;
     align-items: center;
+    justify-content: center;
     padding: 0 20px;
+    max-width: 290px;
     height: 45px;
     border-radius: 8px;
     background: #000;
-    position: absolute;
     text-transform: uppercase;
-    z-index: 1;
 
 }
 .indicator{
@@ -298,12 +319,22 @@ main {
 .arch{
     width: 280px;
     height: 175px;
-    background: #000;
-    border-radius: 20px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+.arch span{
+    font-size: 55px;
+    font-weight: 600;
+}
+.arch p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
 }
 .album_section{
-    max-width: 1300px;
     margin: 0 auto;
     width: 100%;
     display: flex;
