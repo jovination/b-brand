@@ -136,7 +136,7 @@ main {
 .work_select {
     font-family: 'Inter Tight', sans-serif;
     height: 80px;
-    font-size: 3em; /* Use relative units */
+    font-size: 55px; /* Use relative units */
     font-weight: 700;
     color: #000;
 }
@@ -230,7 +230,7 @@ main {
     font-weight: 500;
 }
 .h1_about{
-    font-size: 48px;
+    font-size: 55px;
     font-weight: 600;
     line-height: 1.2;
 }
@@ -254,6 +254,7 @@ main {
     z-index: 1;
 }
 .lets_work{
+    width: 100%;
     margin: 50px;
  
 }
@@ -341,6 +342,23 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.upper_album_section{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+.portfolio{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.p-portfolio{
+    font-size: 55px;
+    font-weight: 500;
+
 }
 .lower_album_section{
     min-height: 100vh;
