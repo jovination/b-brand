@@ -8,6 +8,7 @@
 body {
     width: 100%;
     height: 100vh;
+    background: #050505;
     color: #fff;
 }
 
@@ -138,7 +139,7 @@ main {
     height: 80px;
     font-size: 55px; /* Use relative units */
     font-weight: 700;
-    color: #000;
+    color: #fff;
 }
 
 .wrap_work_ui {
@@ -159,6 +160,7 @@ main {
     transition: background-size 300ms;
     overflow: hidden;
     position: relative;
+    border-radius: 20px;
 }
 
 .seg_ui:hover {
@@ -183,7 +185,7 @@ main {
 }
 
 .seg_2 {
-    background-image: url(../images/bbrand_photography-15052024-0008.jpeg);
+    background-image: url(../images/bbrand_photography-15052024-0003.jpeg);
 }
 
 .seg_3 {
@@ -195,7 +197,8 @@ main {
      display: flex;
      align-items: center;
      justify-content: center;
-    background: #000;
+    background: #fff;
+    color: #000;
     font-weight: 500;
     border-radius: 30px;
     font-size: 15px;
@@ -214,7 +217,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:50px !important;
+    gap:20px !important;
 }
 .upper_about{
     display: flex;
@@ -222,16 +225,16 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #000;
+    color: #fff;
 }
 .about_p{
-    font-size: 17px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 500;
 }
 .h1_about{
     font-size: 55px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.2;
 }
 .p_about{
@@ -243,7 +246,7 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 .work_2ger{
     display: flex;
@@ -315,16 +318,19 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
+    gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Make grid items responsive */
 }
 .arch{
-    width: 280px;
+    width: 290px;
     height: 175px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #000;
+    background: #17171A;
+    border-radius: 12px;
+    color: #fff;
 }
 .arch span{
     font-size: 55px;
@@ -349,7 +355,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #000;
+    color: #fff;
 }
 .portfolio{
     text-transform: uppercase;
@@ -360,13 +366,13 @@ main {
     font-weight: 500;
 
 }
-.lower_album_section{
+.lower_album_section {
     min-height: 100vh;
     display: grid;
     place-items: center;
 }
 
-.slider{
+.slider {
     height: 400px;
     margin: auto;
     position: relative;
@@ -375,31 +381,36 @@ main {
     place-items: center;
     overflow: hidden;
 }
-.slider-track{
+
+.slider-track {
     display: flex;
-    width: calc(400px * 18);
+    width: calc(400px * 8); /* Adjusted for fewer images */
     animation: scroll 40s linear infinite;
 }
+
 @keyframes scroll {
-    0%{
+    0% {
         transform: translateX(0);
     }
-    100%{
-        transform: translateX(calc(-400px * 9));
+
+    100% {
+        transform: translateX(calc(-400px * 7)); /* Adjusted for fewer images */
     }
 }
-.slide{
-    height: 350px;
+
+.slide {
+    height: 400px;
     width: 400px;
     display: flex;
     align-items: center;
     padding: 15px;
+    border-radius: 12px; /* Added border-radius */
 }
-.slider_img{
+
+.slider_img {
     width: 100%;
+    border-radius: inherit; /* Inherit from parent .slide */
 }
-
-
 
 
 
