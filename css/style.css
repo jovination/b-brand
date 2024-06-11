@@ -131,7 +131,6 @@ li a{
 }
 
 .below {
-    margin-top: 2rem;
     width: 100%;
     max-width: 1300px;
     display: flex;
@@ -147,9 +146,10 @@ li a{
 }
 
 .year_tag {
-    font-weight: 800;
+    margin-right: 12rem;
+    font-weight: 700;
     font-size: 50px;
-    color: #616161;
+    color: #929292;
 }
 
 .scroll {
@@ -160,13 +160,13 @@ li a{
 .section_works {
     max-width: 1300px;
     width: 100%;
-    height: auto; /* Adjust to auto to allow height to be dynamic */
+    height: auto; 
     margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 10em;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
-    padding: 20px; /* Add some padding for better appearance on small screens */
+    flex-wrap: wrap; 
+    padding: 20px;
 }
 
 .selected_work {
@@ -179,7 +179,7 @@ li a{
 .work_select {
     font-family: 'Inter Tight', sans-serif;
     height: 80px;
-    font-size: 55px; /* Use relative units */
+    font-size: 55px; 
     font-weight: 700;
     color: #000;
 }
@@ -212,11 +212,11 @@ li a{
 
 .details_ui {
     font-family: 'Inter Tight', sans-serif;
-    font-size: 1.75em; /* Use relative units */
+    font-size: 1.75em; 
     font-weight: 600;
     color: #fff;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 50px;
     position: absolute;
     bottom: 0;
     left: 0;
