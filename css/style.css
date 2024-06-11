@@ -10,6 +10,7 @@ body {
     height: 100vh;
     background: #050505;
     color: #fff;
+    position: relative;
 }
 
 body::-webkit-scrollbar {
@@ -25,7 +26,7 @@ main {
 
 .header_wrap {
     max-width: 100%;
-    height: 65px;
+    height: 70px;
     background: #000;
     color: #fff;
 }
@@ -39,11 +40,46 @@ main {
     justify-content: space-between;
     align-items: center;
 }
+.logo{
+    cursor: pointer;
+}
+.menu_bar{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.primary-nav ul {
+    display: flex;
+    gap: 70px;
+}
+ul li{
+    list-style: none;
+
+}
+li a{
+    font-family:'poppins',sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
 
 .logo_icon{
     width: 35px;
 }
-
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 0 30px;
+    height: 45px;
+    cursor: pointer;
+}
 .wrapper {
     max-width: 100%;
     height: 100vh;
@@ -367,13 +403,12 @@ main {
 
 }
 .lower_album_section {
-    min-height: 100vh;
+    min-height: 90vh;
     display: grid;
     place-items: center;
 }
 
 .slider {
-    height: 400px;
     margin: auto;
     position: relative;
     width: 90%;
@@ -391,7 +426,7 @@ main {
 @keyframes scroll {
     0% {
         transform: translateX(0);
-    }
+    } 
 
     100% {
         transform: translateX(calc(-400px * 7)); /* Adjusted for fewer images */
@@ -399,7 +434,6 @@ main {
 }
 
 .slide {
-    height: 400px;
     width: 400px;
     display: flex;
     align-items: center;
