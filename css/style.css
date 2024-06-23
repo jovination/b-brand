@@ -276,7 +276,7 @@ li a{
 .about_p{
     font-family: 'Inter Tight', sans-serif;
     height: 80px;
-    font-size: 55px; 
+    font-size: 50px; 
     font-weight: 700;
     color: #000;
 }
@@ -371,39 +371,44 @@ li a{
 }
 .arch span{
     font-family: 'Inter Tight'; 
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
 }
 .arch p{
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     margin-top: 10px;
 }
 .album_section{
+    max-width: 1300px;
     margin: 0 auto;
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 20px;
+
 }
 .upper_album_section{
+    width: 1300px;
+    margin: auto auto;;
     display: flex;
     gap: 15px;
     flex-direction: column;
     color: #000;
 }
-.portfolio{
-    text-transform: uppercase;
-    font-size: 20px;
-}
+
 .p-portfolio{
-    font-size: 55px;
-    font-weight: 500;
+    font-family: 'Inter Tight', sans-serif;
+    height: 80px;
+    font-size: 55px; 
+    font-weight: 700;
+    color: #000;
 
 }
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
 }
 
 .slider-wrapper {
