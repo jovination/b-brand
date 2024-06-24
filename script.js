@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     var currentYear = new Date().getFullYear();
     var yearTag = document.querySelector('.year_tag');
@@ -71,3 +72,4 @@ const initSlider = () => {
 
 window.addEventListener("resize", initSlider);
 window.addEventListener("load", initSlider);
+
