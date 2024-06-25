@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: inherit;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -21,7 +22,13 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 4em;
+    position: relative;
+    z-index: 1;
+
+}
+.work-w-u{
+    width: 100%;
+    background: #fff;
 }
 
 .header_wrap {
@@ -184,6 +191,10 @@ li a{
     margin-bottom: 1.5rem;
 }
 .section_works {
+    width: 100%;
+    background: #fff;
+}
+.section_w_1{
     max-width: 1300px;
     width: 100%;
     height: auto; 
@@ -290,6 +301,11 @@ li a{
 }
 
 .about_section{
+   width: 100%;
+   background: #fff;
+
+}
+.about-section-1{
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
@@ -297,7 +313,6 @@ li a{
     align-items: center;
     justify-content: center;
     padding: 20px;
-
 }
 .about_wrap{
     width: 100%;
@@ -334,7 +349,7 @@ li a{
     justify-content: start;
     width: 100%;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
 }
 .lets_work{
     width: 100%;
@@ -421,13 +436,16 @@ li a{
     margin-top: 10px;
 }
 .album_section{
+  width: 100%;
+  background: #fff;  
+}
+.album-section-1{
     max-width: 1300px;
     margin: 0 auto;
     width: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px;
-
 }
 .upper_album_section{
     width: 1300px;
@@ -607,6 +625,10 @@ li a{
     flex-direction: column;
     align-items: center;
     gap: 120px;
+    position: sticky;
+    bottom: 0;
+    z-index: 0;
+
 }
 .wrapp_section_f{
     display: flex;
@@ -772,7 +794,7 @@ figcaption {
     padding: 1rem;
     color: white;
     font-size: 1.2rem;
-    z-index: 1;
+    z-index: 2;
     opacity: 0;
     transition: opacity 600ms, transform 600ms;
 }
