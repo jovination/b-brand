@@ -699,20 +699,20 @@ li a{
     transform: translateY(-10px);
 }
 .silver-pack{
-   background: #f0f0f0;
+    background: #f8f8f8; 
+    color: #000; 
+
 }
 .gold-pack{
-    background: #fff4e6;
+    background: #ffe8cc;;
     color: #000;
 }
 .diamond-pack{
-    background: #f8f8f8;    
+    background: #f0f0f0;
     color: #000;
 }
-.tanz-pack{
-    background: #e0f7fa;;
-    color: #000;
-}
+
+
 .p-title{
     font-family: 'Inter Tight', sans-serif;
     font-size: 18px; 
