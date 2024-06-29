@@ -644,13 +644,13 @@ li a{
 }
 .p-price{
     font-family: 'poppins', sans-serif;
-    height: 50px;
+    height: 30px;
     font-size: 24px;
     font-weight: 600;
 }
 .pck-wrap{
     width: 250px;
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -666,7 +666,7 @@ i{
 .p-benefits ul{
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 5px;
 }
 .p-benefits li{
     width: 100%;
@@ -676,7 +676,7 @@ i{
 }
 .book-now{
     width: 190px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     height: 50px;
     text-transform: capitalize;
     background: #000;
