@@ -306,77 +306,98 @@ li a{
    background: #fff;
 
 }
-.about-section-1{
+.about_section {
+    width: 100%;
+    background: #fff;
+    padding: 40px 0;
+}
+
+.about-section-1 {
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
+    border-radius: 8px;
 }
-.about_wrap{
+
+.about_wrap {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:20px !important;
+    gap: 20px;
 }
-.upper_about{
+
+.upper_about {
     width: 100%;
     display: flex;
-    gap: 15px;
     flex-direction: column;
+    gap: 15px;
     color: #000;
 }
-.about_p{
+
+.about_p {
     font-family: 'Inter Tight', sans-serif;
-    height: 80px;
-    font-size: 50px; 
+    font-size: 50px;
     font-weight: 700;
     color: #000;
 }
 
-.lower_about{
+.lower_about {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
+    position: relative;
 }
-.work_2ger{
+
+.work_2ger {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     position: absolute;
     z-index: 2;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.lets_work{
-    width: 100%;
-    margin: 50px;
- 
+
+.lets_work {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
 }
-.lets_work p{
-    font-family: 'Inter Tight'; 
-    font-size: 75px;
+
+.lets_work p {
+    font-family: 'Inter Tight';
+    font-size: 4vw;
     font-weight: 400;
     color: #fff;
+    line-height: 1.2;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    margin: 0;
 }
+
 .img_about {
-    position: relative;
-    margin: 0 auto;
-    max-width: 1300px;
     width: 100%;
-    height: 100%;
+    height: 0;
     padding-bottom: 40.91%;
-    background-image: url(../images/bbrand_photography-15052024-0004.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(../images/bbrand_photography-15052024-0004.jpeg) no-repeat center center/cover;
     background-size: cover;
     border-radius: 4px;
-    image-rendering: auto;
+    position: relative;
 }
+
 .img_about::before {
     content: "";
     position: absolute;
@@ -385,57 +406,90 @@ li a{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-    pointer-events: none; 
     border-radius: 4px;
 }
-.work_tag{
-    margin: 50px;
-    font-family: 'poppins', san-serif;
+
+.work_tag {
+    margin: 20px auto;
+    font-family: 'Poppins', sans-serif;
     display: flex;
-    gap: 12px;
     align-items: center;
     justify-content: center;
-    padding: 0 20px;
+    gap: 12px;
+    padding: 10px 20px;
     max-width: 290px;
     height: 45px;
     border-radius: 8px;
     background: #000;
+    color: #fff;
     text-transform: uppercase;
-
+    font-size: 14px;
 }
-.indicator-1{
+
+.indicator-1 {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background: #d64770;
-    border-radius: 100%;
 }
-.lower_archieve{
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Make grid items responsive */
-}
-.arch{
-    width: 290px;
-    height: 175px;
+
+.lower_archieve {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #000;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+    border-radius: 0 0 8px 8px;
 }
-.arch span{
-    font-family: 'Inter Tight'; 
-    font-size: 50px;
-    font-weight: 600;
-}
-.arch p{
-    font-size: 20px;
+
+.arch {
     text-align: center;
-    margin-top: 10px;
+    flex: 1;
+    padding: 20px;
+    transition: transform 0.3s ease;
 }
+
+.arch:hover {
+    transform: scale(1.05);
+}
+
+.arch span {
+    font-size: 2.5em;
+    color: #333;
+    font-weight: bold;
+}
+
+.arch p {
+    color: #777;
+    margin: 10px 0 0;
+    font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    .about_p {
+        font-size: 40px;
+    }
+
+    .lets_work p {
+        font-size: 7vw;
+    }
+
+    .work_tag {
+        font-size: 12px;
+        height: 40px;
+    }
+
+    .lower_archieve {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .arch {
+        margin-bottom: 20px;
+    }
+}
+
 .album_section{
   width: 100%;
   background: #fff;  
