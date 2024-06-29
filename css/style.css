@@ -981,7 +981,14 @@ a:is(:hover, :focus) figcaption {
   .opacity-low {
     opacity: 0.5;
   }
+.about_wrap{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    margin: 0 auto;
+    padding: 20px;
 
+}
 
 
 
