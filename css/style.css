@@ -630,8 +630,8 @@ li a{
     border-radius: 8px;
 }
 .gold-pack{
-    background: #373A40;
-    color: #fff;
+    background: #F6EEC9;
+    color: #000;
 }
 .diamond-pack{
     background: #EEEEEE;
@@ -674,26 +674,26 @@ i{
     align-items: center;
     gap: 12px;
 }
-.book-now,
-.gld{
+.book-now{
     width: 190px;
     margin-bottom: 40px;
     height: 50px;
     text-transform: capitalize;
-    background: #373A40;
+    background: #000;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     cursor: pointer;
 }
-.gld{
- background: #fff;
- color: #373A40;
+
+.book-now:hover{
+    background: #404040;
 }
+
 
 .footer_wrap{
     width: 100%;
