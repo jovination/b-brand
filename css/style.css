@@ -628,13 +628,25 @@ li a{
     justify-content: space-between;
     border:1px solid #E0EAEC;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.pack:hover {
+    transform: translateY(-10px);
+}
+.silver-pack{
+   background: #f0f0f0;
 }
 .gold-pack{
-    background: #F6EEC9;
+    background: #fff4e6;
     color: #000;
 }
 .diamond-pack{
-    background: #EEEEEE;
+    background: #f8f8f8;    
+    color: #000;
+}
+.tanz-pack{
+    background: #e0f7fa;;
     color: #000;
 }
 .p-title{
@@ -678,11 +690,11 @@ i{
     background: #CAF4FF;
 }
 .book-now{
-    width: 190px;
+    width: 150px;
     margin-bottom: 30px;
     height: 50px;
     text-transform: capitalize;
-    background: #000;
+    background: #333;
     color: #fff;
     display: flex;
     align-items: center;
@@ -691,10 +703,12 @@ i{
     font-size: 16px;
     font-weight: 400;
     cursor: pointer;
+    transition: background-color 0.3s;
+
 }
 
 .book-now:hover{
-    background: #404040;
+    background: #555;
 }
 
 
