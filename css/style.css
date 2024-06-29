@@ -29,6 +29,7 @@ main {
 .work-w-u{
     width: 100%;
     background: #fff;
+    border-radius: 0 0 10px 10px;
 }
 
 .header_wrap {
@@ -595,7 +596,9 @@ li a{
     }
 }
 .package_section{
-    background: #000;
+    max-width: 100%;
+    background: #fff;
+    color: #000;
     width: 100%;
     height: 720px;
     margin: 0 auto;
@@ -603,9 +606,15 @@ li a{
 
 
 }
+.upper-row{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
 .lower-row{
     max-width: 1300px;
     margin: 0 auto;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 20px;
@@ -613,12 +622,82 @@ li a{
 .pack{
     width: 100%;
     height: 550px;
-    background: #1c1e21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid #E0EAEC;
+    border-radius: 8px;
+}
+.gold-pack{
+    background: #373A40;
+    color: #fff;
+}
+.diamond-pack{
+    background: #EEEEEE;
+    color: #000;
+}
+.p-title{
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px; 
+    font-weight: 600; 
+}
+.p-price{
+    font-family: 'poppins', sans-serif;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.pck-wrap{
+    width: 250px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+i{
+    font-size: 18px;
+}
+.p-benefits span{
+    font-size: 16px;
+    font-weight: normal;
+}
+.p-benefits ul{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.p-benefits li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.book-now,
+.gld{
+    width: 190px;
+    margin-bottom: 40px;
+    height: 50px;
+    text-transform: uppercase;
+    background: #373A40;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.gld{
+ background: #fff;
+ color: #373A40;
 }
 
 .footer_wrap{
     width: 100%;
-    height: 500px;
+    height: 450px;
     margin: 0 auto;
     background: #000;
     display: flex;
@@ -707,7 +786,6 @@ li a{
     height: 80px;
     font-size: 50px; 
     font-weight: 600;
-    color: #fff;
 }
 
 .work-wrapper{
